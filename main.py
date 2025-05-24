@@ -6,7 +6,7 @@ from send_email import send_email
 load_dotenv()
 
 # Get API key from environment
-api_key = os.getenv("API_KEY")
+api_key = os.getenv("api_key")
 
 topic = "tesla"
 
